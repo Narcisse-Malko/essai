@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELLE & MOI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NOTRE HISTOIRE</h1>
+    <input type="file" id="csvFile" accept=".csv">
+    <div class="photo-grid" id="photoGrid"></div>
+    <div class="context-text" id="context">
+        <p>Cliquer sur une photo pour voir le contexte.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
